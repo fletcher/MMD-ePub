@@ -1,0 +1,58 @@
+body {}
+
+h1 {
+	page-break-after: always;
+}
+h1:not(:first-of-type) {
+	page-break-before: always;
+}
+h2:not(:first-of-type) {page-break-before: always; page-break-after: avoid;}
+h3, h4, h5, h6 {
+	page-break-after: avoid;
+}
+h3+p,h4+p,h5+p,h6+p {
+	page-break-before: avoid;
+}
+table {
+  border: solid black;
+  border-width: 2px 0px;
+  empty-cells: hide;
+  border-spacing: 0px;
+  padding: 2px;
+  margin: 20px auto;
+  page-break-inside: avoid;
+}
+table caption {
+  margin: 5px;
+  text-align: center;
+  caption-side: bottom;
+}
+thead th {
+  border: solid gray;
+  border-width: 0 0 2px 0;
+  padding: 5px;
+}
+thead > tr:last-child > th { border-style: none; }
+tbody > tr:first-child > td {
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+tbody > tr:first-child > th {
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+thead + tbody > tr:first-child > td {
+  border: solid black;
+  border-width: 1px 0 0 0;
+}
+thead + tbody > tr:first-child > th {
+  border: solid black;
+  border-width: 1px 0 0 0;
+}
+figure {
+  page-break-inside: avoid;
+}
+pre {
+	margin: 20px auto;
+	page-break-inside: avoid;
+}
