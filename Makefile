@@ -54,8 +54,10 @@ clean :
 	rm -f mimetype
 	rm -f META-INF/container.xml
 	rm -f container.opf
+	rm -f content.opf
 	rm -f toc.ncx
 	rm -f main.xhtml
 	rm -f temp.xhtml
 	rm -f temp.xhtml-e
 	rm -f mmd.epub
+	rm -f main.html
