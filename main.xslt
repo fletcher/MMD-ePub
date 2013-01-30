@@ -31,6 +31,6 @@
 	</head>
 </xsl:template>
 
-<xsl:template match="script"></xsl:template>
+<!-- <xsl:template match="script"></xsl:template> -->
 
 </xsl:stylesheet>
