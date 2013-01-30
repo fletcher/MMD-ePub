@@ -2,6 +2,8 @@ Title:	MultiMarkdown to ePub Converter
 Author:	Fletcher T. Penney  
 Date:	2012-11-07  
 Base Header Level:	2  
+Keywords:	ePub, iBooks, Markdown, MultiMarkdown
+
 
 # Introduction #
 
