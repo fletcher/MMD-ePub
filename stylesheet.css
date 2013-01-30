@@ -53,6 +53,10 @@ figure {
   page-break-inside: avoid;
 }
 pre {
-	margin: 20px auto;
-	page-break-inside: avoid;
+  margin: 20px auto;
+  page-break-inside: avoid;
+}
+a.footnote, a.citation {
+  font-size: 0.83em;
+  vertical-align: super;
 }
