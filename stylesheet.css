@@ -53,10 +53,26 @@ figure {
   page-break-inside: avoid;
 }
 pre {
-  margin: 20px auto;
+  font-family: courier;
+  font-size: 0.857em;
+  line-height: 1.75em;
+  margin: 0 0 1.75em 0;
+  padding: 0.5em;
+  white-space: pre-wrap;
+  white-space: moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
   page-break-inside: avoid;
+  border: #777777 1px solid;
+  background-color: #cccccc;
 }
 a.footnote, a.citation {
   font-size: 0.83em;
   vertical-align: super;
+}
+p {
+	font-size: 1em;
+	text-align: justify;
+	margin: 1.5em 0 1.5em 0;
 }
