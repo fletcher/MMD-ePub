@@ -13,8 +13,8 @@ epub : main.xhtml temp.xhtml main.html mimetype META-INF/container.xml container
 
 # Be sure to convert plain text to HTML
 main.html : 
-	mmd main.txt
-	mmd main.md
+	-multimarkdown -b main.txt
+	-multimarkdown -b main.md
 
 # Process the HTML into suitable format for use in an epub
 temp.xhtml : main.html
